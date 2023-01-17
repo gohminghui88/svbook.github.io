@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^svbook\.ztechbook\.website$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.svbook\.ztechbook\.website$
+RewriteRule ^/?$ "http\:\/\/www\.svbook\.com" [R=301,L]

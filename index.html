@@ -1,0 +1,1261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+
+  <meta name="description" content="SVBook publishes easy to learn ebooks in the field of the popular data science, statistics and computing. SVBook develops its own data science software at http://dstk.tech and courses at EMHAcademy.com ">
+  <meta name="keywords" content="SVBook, IoT Book, IoT Arduino Fast, DSTK 3, DSTK, Data Science, Data Mining, Text Mining, R programming fast, Statistics with R, R programming with statistics, python programming fast, python programming with data science, data mining with python, pandas with python, scikit learn with python, data science with python, C# programming fast, c# programming guide, eric m. h. goh, eric goh ming hui ">
+  <meta name="author" content="Eric M. H. Goh">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>SVBook - Learn By Examples and Affordable Data Science Books</title>
+  
+  <!--<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/294df11d093f488ed4d32b204/e889f63020c7c892c2a58cf86.js");</script>-->
+</head>
+
+
+<!--Google Analytics Script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1670501-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"294df11d093f488ed4d32b204","lid":"e96ee8e9aa"}) })</script>
+
+
+<!-- Ref: https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp -->
+<body>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	
+	<style>
+		.carousel-inner img {
+			//-webkit-filter: grayscale(90%);
+			//filter: grayscale(90%); /* make all photos black and white */ 
+			width: 100%; /* Set width to 100% */
+			margin: auto;
+		}
+		
+		.content1 {
+		
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+		
+		.content2 {
+			background-color: black;
+		}
+		
+		.content3 {
+			background-color: #d3d3d3;
+		}
+		
+		.navbar-content {
+			padding-top: 5px;
+			padding-bottom: 60px;
+			background-color: black;
+		}
+		
+
+
+	</style>
+	
+	
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-content">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="./images/SVBook_Monogram_Logo2.png"/ width="80" height="80"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavBar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#books">Books</a></li>
+					<li><a href="https://dstk2.sourceforge.io/" target="_blank">Softwares</a></li>
+					<li><a href="http://emhacademy.com" target="_blank">Courses</a></li>
+					<li><a href="#author">Author</a></li>
+					<li><a href="https://edatascience.tumblr.com" target="_blank">Blog</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--Carousel-->
+	<div id="home" class="carousel slide" data-ride="carousel">
+		<!--Indicators-->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		
+		<!-- Wrapper for Slides -->
+		<div class="carousel-inner content2" role="listbox">
+			
+			
+			<div class="item active">
+				<img src="./images/pexels-mikhail-nilov-9304917.jpg" />
+					
+				<div class="carousel-caption" id="home">
+					<h1>SVBook - Learn By Examples and Affordable Programming Books...</h1>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	
+	</div>
+	
+	
+	<!--Author-->
+	<div class="container content3">
+		<center><h2>About SVBook</h2></center>
+		<p><b>SVBook Pte. Ltd.</b> started in April 2016. SVBook Pte. Ltd. offers affordable, easy to read Data Mining, Text Mining, Data Analytics, 
+		Programming books for professional and lifelong learning. SVBook Pte. Ltd. offers courses at <b><a href="http://emhacademy.com"  target="_blank">EMHAcademy.com</a></b>. 
+		SVBook Pte. Ltd. developed softwares over the time, and uploaded them at <b><a href="https://dstk2.sourceforge.io/" target="_blank">DSTK.Tech</a></b>. 
+		SVBook Pte. Ltd. courses, books and softwares assists people to step into new fields of Data Science, Internet of Things, Smart Cities and etc. 
+		before going into more advanced courses at Coursera and EdX, which are at University Level. </p>
+		
+		<br />
+		<br />
+		<p><b><u>Business Models</u></b></p>
+		<br />
+		<center><img src="./images/process.png" width="70%" height="70%"></img></center>
+		<br />
+		
+		<p>
+		SVBook Pte. Ltd. business models is to sell books at SVBook and support with courses at EMHAcademy and Softwares at DSTK.Tech. 
+		<br /><br />If sell courses at EMHAcademy, support the courses with softwares at DSTK.Tech and books at SVBook. 
+		<br /><br />If sell softwares at DSTK.Tech, supports with courses at EMHAcademy and books at SVBook. 
+		<br /><br /><font color="red">You can see our COVID19 Dashboard by DSTK.Tech at: <a href="https://gohminghui88.shinyapps.io/COVID19">here</a></font>
+		<br /><br />SVBook Pte. Ltd. also provides recipes at: <b> <a href="http://asianeasternrecipes.club">Asian Eastern Recipes Club </a>. SVBook Pte. Ltd. aims to bring Singapore food into other countries. </b>
+		
+		<br /><br /><b>Asian Eastern Recipes Club Business Models: </b>
+		<br /><img src="./images/asd.png" width="50%" height="50%" ></img>
+		
+		<br /><br /><b>Books, Courses, Softwares, Recipes are</b>
+		<br /><br /><img src="./images/ProductOfSingapore.png" width="50%" height="50%" ></img>
+		
+		</p>
+		
+	</div>
+	
+	<!-- Content -->
+	  <div class="container content1" id="books">
+      <center><h2>Our Books</h2></center>
+	  <br />
+	  
+	  
+	  <div class="row">
+        
+		
+		
+	  <div class="row">
+	  
+	  
+	  <div class="col-lg-4">
+		  <img src="./images/9781484241998.jpg" height="395px" width="300px"/>
+          <h3>Learn R for Applied Statistics</h3>
+		  <br />
+          <p>Gain the R programming language fundamentals for doing the applied statistics useful for data exploration and analysis in data science and data mining. This book covers topics ranging from R syntax basics, descriptive statistics, and data visualizations to inferential statistics and regressions. After learning R’s syntax, you will work through data visualizations such as histograms and boxplot charting, descriptive statistics, and inferential statistics such as t-test, chi-square test, ANOVA, non-parametric test, and linear regressions.  
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Discover R, statistics, data science, data mining, and big data
+			 <br />2. Master the fundamentals of R programming, including variables and arithmetic, vectors, lists, data frames, conditional statements, loops, and functions 
+			 <br />3. Descriptive Statistics (Standard Deviation, Percentile, ...) 
+			 <br />4. Create data visualizations, including bar charts, line charts, scatter plots, boxplots, histograms, and scatterplots (basic R plots, ggplot2) 
+			 <br />5. Use inferential statistics including t-tests, chi-square tests, ANOVA, non-parametric tests, linear regressions, and multiple linear regressions
+			 <br />6. Conclusion 
+		  </p>
+		  <p><i>Extracted from: <a href="https://www.apress.com/in/book/9781484241998">https://www.apress.com/in/book/9781484241998 </a></i></p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>EUR 29.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $0.00</td>
+				<td>Was EUR 29.99</td>
+			</tr>
+		  </table>
+		  <br /><br />
+		  
+          <p><a class="btn btn-primary" href="https://www.apress.com/in/book/9781484241998" target="_blank" role="button">Buy from Apress &raquo;</a></p>
+		  
+        </div>
+		
+		
+	  <div class="col-lg-4">
+		  <img src="./images/dstk32.png" />
+          <h3>DSTK 3 Book (FREE)</h3>
+		  <br />
+          <p>We have develop our own Data and Text Mining software at <a href="http://dstk.tech" target="_blank">DSTK.Tech</a>. This technical book aim to equip the reader with Data and Text Mining fundamentals in a fast and practical way using our DSTK - Data Science ToolKit 3 software. There will be many examples and explanations that are straight to the point. 
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction
+			 <br />2. Getting Started
+			 <br />3. DSTK ScripWriter Essentials 
+			 <br />4. DSTK Studio Essentials 
+			 <br />5. DSTK Text Explorer Essentials 
+			 <br /> 6. Conclusion 
+			 <br/><br/><b>Now Free.</b>
+		  </p>
+		  
+          <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $0.00</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $30.99</td>
+				<td>Was $30.99</td>
+			</tr>
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="https://leanpub.com/learnbyexamples-introductiontodataandtextminingusingdstk3" target="_blank" role="button">Get Now for Free &raquo;</a></p>
+		  <p><a href="https://www.amazon.com/dp/B07DKD7K7W" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+		  <p><a href="https://books.google.com.sg/books?id=-B9eDwAAQBAJ&pg" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+		  <br />  
+        </div>
+		
+		
+        <div class="col-lg-4">
+		  <img src="./images/book-detail-img3.jpg" />
+          <h3>Python Book</h3>
+		  <br />
+          <p>This technical book aim to equip the reader with Python programming fundamentals in a fast and practical way. There will be many examples and explanations that are straight to the point. You will develop your own Python programs for Data Mining application.
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction
+			 <br />2. Language Essentials I (Variables, Lists, ...) 
+			 <br />3. Language Essentials II (Loops, Conditions, ...) 
+			 <br />4. OBject Essentials (Modules, Objects and Classes, ...) 
+			 <br />5. Data Mining walkthrough with Python (Pandas, Scikit Learn, ...) 
+			 <br /> 6. Conclusion 
+			 <!--<br/><br/><b>Now $15.00. Coupon: lciYAtfK3DX7</b>-->
+		  </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="https://leanpub.com/quickguidetodatasciencewithpython" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+		  <p><a href="https://www.amazon.com/dp/B01MQPEWW8" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+		  <p><a href="http://books.google.com/books?vid=ISBN9781635352993" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+		  <br />  
+        </div>
+        
+		
+		
+        
+		
+		
+		
+      </div>
+	  
+	  <div class="row">
+	  <br />
+		<i><p>The Kindle version may lose some formatting, hence, released at low cost. If you want the original version, please purchase PDF format from Google Book and "PC and Mac Version". Google Book offers preview of the Books. <b>** If you faced any disabilities, we can gives you free books, courses, and softwares. <a href="mailto:gohminghui88@gmail.com">Email us.</a>  </b></p></i>
+		<br /><br />
+	  
+	  </div>
+	  
+	  <div class="row">
+        <div class="col-lg-4">
+		  <img src="./images/java2.jpg" />
+          <h3>Java Programming Book</h3>
+		  <br />
+          <p>This technical book aim to equip the reader with Java programming, Text Mining, and Natural Language Processing fundamentals in a fast and practical way. There will be many examples and explanations that are straight to the point. You will develop your own Text Mining Application at the end of the book. 
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction
+			 <br />2. Getting Started (Installing IDE, ...) 
+			 <br />3. Language Essentials I (variables, data types, ...)  
+			 <br /> 4. Language Essentials II (loops, if... else..., methods)
+			 <br /> 5. Object Essentials (classes, inheritance, polymorphism, encapsulation, ...)
+			 <br /> 6. Text Mining Essentials (Import Text Files, Text Transformation (lowercase, stopwords), Text Understanding (Stanford NLP), Text Classification (Stanford Classifier) )
+			 <br /> 7. Conclusion
+		  </p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+          <p><a class="btn btn-primary" href="https://leanpub.com/javaprogrammingfortextminingandnlp" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+		  <p><a href="https://kdp.amazon.com/amazon-dp-action/us/dualbookshelf.marketplacelink/B07DRMNJF8" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+		  <p><a href="http://books.google.com/books?vid=ISBN9781635355468" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+        </div>
+		
+	  
+	  
+        <div class="col-lg-4">
+		  <img src="./images/book-detail-img5.jpg" />
+          <h3>Internet of Things Book</h3>
+		  <br />
+          <p>This technical book aim to equip the reader with Arduino programming fundamentals in a fast and practical way. There will be many examples and explanations that are straight to the point. You will develop your own Arduino Projects for Internet of Things at the end of the book. 
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction
+			 <br />2. Basics (IoT, Data Science, Product Design...) 
+			 <br />3. Arduino Programming (Variables, Arrays, ...)  
+			 <br /> 4. Digital and Analog I/O (incld. sensors data prediction with regression)
+			 <br /> 5. Arduino Projects (Servos, DC, IoT)
+			 <br /> 6. Conclusion
+		  </p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  
+          <p><a class="btn btn-primary" href="https://leanpub.com/learnbyexamples-IoT" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+		  <p><a href="https://www.amazon.com/dp/B07DKFNPXZ" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+		  <p><a href="http://books.google.com/books?vid=ISBN9781635359862" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+        </div>
+		
+		
+		<div class="col-lg-4">
+		  <img src="./images/book-detail-img.png" />
+          <h3>C# Programming Book</h3>
+		  <br />
+          <p>This technical book aim to equip the reader with C# programming (C Sharp Programming) fundamentals in a fast and practical way. There will be many examples and explanations that are straight to the point. You will develop your own C# programs such as web browser at the end of the book. 
+             <br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction
+			 <br />2. Language Essentials I (Variables, Arrays, ...) 
+			 <br />3. Language Essentials II (Loops, Conditions, ...) 
+			 <br />4. OBject Essentials (Polymorphism, Inheritance, ...) 
+			 <br />5. GUI Design and Labs 
+			 <br />6. Conclusion
+		  </p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+          <p><a class="btn btn-primary" href="https://leanpub.com/learnbyexamples_csharp_programming" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+		  <p><a href="https://www.amazon.com/dp/B01B15ONLE" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+		  <p><a href="http://books.google.com/books?vid=ISBN9781635353068" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+        </div>
+        
+      </div>
+	  
+	  </div>
+	
+ 	<div class="row">
+	  <br />
+		<i><p>The Kindle version may lose some formatting, hence, released at low cost. If you want the original version, please purchase PDF format from Google Book and "PC and Mac Version". Google Book offers preview of the Books. <b>** If you faced any disabilities, we can gives you free books, courses, and softwares. <a href="mailto:gohminghui88@gmail.com">Email us.</a></b></p></i>
+		<br /><br />
+	  
+	  </div>  
+	<div class="row">
+        <div class="col-lg-4">
+		<img src="./images/WekaRapidminer3.png" />
+          	<h3>RapidMiner and Weka Book</h3>
+		<br />
+          	<p>This technical book aim to equip the reader with RapidMiner and Weka, Data Mining in a fast and practical way. There will be many examples and explanations that are straight to the point.  
+             	<br /><br /><strong>Contents</strong> 
+			 <br />1. Introduction (What is data science, what is data mining, CRISP DM Model, what is text mining, three types of analytics, big data)
+			 <br />2. Getting Started (INstall Weka and RapidMiner)
+			 <br />3. Prediction and Classification (Prediction and Classification)
+			 <br /> 4. Machine Learning Basics (KMeans Clustering, Decision Tree, Naive Bayes, KNN, Neural Network)
+			 <br /> 5. Data Mining with Weka (Data Understanding using Weka, Data Preparation using Weka, Model Building and Evaluation using Weka)
+			 <br /> 6. Data Mining with RapidMiner (Data Understanding using RapidMiner, Data Preparation using RapidMiner, Model Building and Evaluation using RapidMiner)
+			 <br /> 7. Conclusion
+		  </p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+          	  <p><a class="btn btn-primary" href="https://leanpub.com/aquickguidetodtaaminingusingrapidminerandweka" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+			  <p><a href="https://www.amazon.com/dp/B07XKPD19L" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+			  <p><a href="https://books.google.com.sg/books?id=bGutDwAAQBAJ" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+        </div>
+       
+       <div class="col-lg-4">
+       <img src="./images/hero2x.png" height="395px" width="300px" />
+       <h3>Weka using Java Book</h3>
+       <br />
+       <p>This technical book aim to equip the reader with Weka, Data Mining in a fast and practical way. There will be many examples and explanations that are straight to the point. 
+       <br /><br /><strong>Contents</strong> 
+       <br />1. Introduction (What is data science, what is data mining, CRISP DM Model, what is text mining, three types of analytics, big data)
+       <br />2. Getting Started (INstall Weka and RapidMiner)
+       <br />3. Prediction and Classification (Prediction and Classification)
+       <br /> 4. Machine Learning Basics (KMeans Clustering, Decision Tree, Naive Bayes, KNN, Neural Network)
+       <br /> 5. Data Mining with Weka (Data Understanding using Weka, Data Preparation using Weka, Model Building and Evaluation using Weka)
+       <br /> 6. Java interact Weka (Use Java to use Weka, in order to develop your own prediction or classification system) 
+       <br /> 7. Conclusion
+       </p>
+	   
+	   <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  
+       <p><a class="btn btn-primary" href="https://leanpub.com/aquickguidetodtaaminingusingrapidminerandweka" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+       <p><a href="https://www.amazon.com/dp/B07XN6RPYC" target="_blank" role="button"><img src="http://lostagepublishing.com/wp-content/uploads/2017/05/Amazon_Kindle.png" width="50%" height="50%"/></a></p>
+	   <p><a href="https://books.google.com.sg/books?id=fmutDwAAQBAJ" target="_blank" role="button"><img src="https://m.media-amazon.com/images/G/01/kindle/top-button_android._CB527024997_.png" /></a></p>
+       </div>
+	   
+	   <div class="col-lg-4">
+       <img src="./images/small2x.jpeg" height="395px" width="300px" />
+       <h3>GIMP Dia Inkscape Book</h3>
+       <br />
+       <p>This technical book aim to equip the reader with Weka, Data Mining in a fast and practical way. There will be many examples and explanations that are straight to the point. 
+       <br /><br /><strong>Contents</strong> 
+       <br />1. Introduction
+       <br />2. Getting Started (Install GIMP, Dia, Inkscape)
+       <br />3. Grahics using GIMP
+       <br /> 4. Design with Inkscape
+       <br /> 5. Figures with Dia 
+       <br /> 6. Conclusion
+	   <br /> You will create business cards, web page design, UML, ERD, CRISP DM. 
+       </p>
+	   
+	   <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  
+       <p><a class="btn btn-primary" href="https://leanpub.com/learnbyexamples-aquickguidetographicsanddesignwithdiagimpandinkscape" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>
+       </div>
+	</div>
+
+	  <div class="row">
+	  <br /><br />
+		<i><p>The Kindle version may lose some formatting, hence, released at low cost. If you want the original version, please purchase PDF format from Google Book and "PC and Mac Version". Google Book offers preview of the Books. <b>** If you faced any disabilities, we can gives you free books, courses, and softwares. <a href="mailto:gohminghui88@gmail.com">Email us.</a></b></p></i>
+		<br /><br />
+	  
+	
+	  </div>
+	
+	<div class="row">
+        <div class="col-lg-4">
+		<img src="./images/recip.png" width="340" height="440"/>
+          	<h3>Recipes</h3>
+			<br />
+          	<p><b>Have you ever want to tour Singapore and cook Singapore food?</b> If yes, this book is for you. <b> This book aims to be a Singapore Food Tour Guide and Cookbook. </b> This book will guide you from Changi Airport to Bedok Hawker Centre to Orchard Road to Istana Park to Marina Bay Sands to Merlion to Boat Quay to Clarke Quay. This book will guide you to find good food in Singapore.
+             	<br />
+				<br />
+             When you go back to your country, this book will teach you how to cook Singapore Food.
+				<br />
+			 <br /><strong>Contents</strong> 
+			 <br /><b>1. Singapore Food Tour (95 pages out of 325 pages.) </b>
+			 <br />2. Chinese Food (Fried Rice, Oyster Egg, Steam Fish, Ginger Onion Garlic Stir Fry Chicken,)
+			 <br />3. Malay Food (Sambal Belacan Stir Fry Mussel, Cuttlefish, Razor Calms, Chicken)
+			 <br />4. Indian Food (Indian Curry Chicken)
+			 <br /> 5. Western Food (Cheese Cake, Chocolate Chips Cookies, Bread, Soy Baked Chicken, )
+			 <br /> 6. Korean Food (Kim Chi, Kim Chi Fried Rice)
+			 <br /> 7. Japanese Food (Japanese Beancurd, Beancurd Kumbu Miso Soup, Udon Soup, )
+			 <br /> 8. Thai Food (Tom Kha Gai, Green Curry Paste, Green Curry, Tom Yum Soup)
+			 <br /> 9. Grow Your Own Food(Grow Beansprouts, Grow Microgreens)
+		  </p>
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $4.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $10</td>
+				<td>Was $14.99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  
+          <p><a class="btn btn-primary" href="https://leanpub.com/asianeasternrecipesclub-singaporerecipes" target="_blank" role="button">Buy Now, PC and Mac Version &raquo; $4.99</a></p>
+					
+					
+		</div>
+		
+		<div class="col-lg-4">
+			<img src="./images/s_hero2x.png" height="395px" width="300px" />
+			<h3>PowerApp and PowerBI Book</h3>       
+			<br />       
+			<p>This technical book aim to equip the reader with POwerApp and PowerBI in a fast and practical ways. There will be many examples and explanations that are straight to the point.        
+			<br /><br /><strong>Contents</strong>        
+			<br />1. Introduction       
+			<br />2. Getting Started       
+			<br />3. Work with PowerApp Template       
+			<br /> 4. CReate PowerApp from Scratch       
+			<br /> 5. AI Builder 	   	   
+			<br /> 6. Power BI 	          
+			<br /> 7. Conclusion        </p>       
+			
+			<table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $10.99</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $30.99</td>
+			</tr>
+			
+			
+			</table>
+			<br /><br />
+			
+			<p><a class="btn btn-primary" href="https://leanpub.com/learnbyexamples-aquickguidetopowerappandpowerbi" target="_blank" role="button">Buy Now, PC and Mac Version &raquo;</a></p>		
+			
+			</div>
+        
+       
+    
+	   
+	   
+	</div>
+
+	
+	<!--Softwares-->
+	<div class="container content3" id="softwares">
+		<center><h2>Why Learn From Us? </h2></center>
+		<br /><br />
+		<center><h3>We Are Real Data Scientist and Developers... Not Fake and Baseless... </h3></center>
+		<br /><br />
+		<div class="row">
+        <div class="col-lg-4">
+          <h4>DSTK - Data Science ToolKit 3 - Desktop Version</h4>
+		  <br />
+          <p>DSTK - Data Science Toolkit 3 is a set of data and text mining softwares, following the CRISP DM model. DSTK offers data understanding using statistical and text analysis, data preparation using normalization and text processing, modeling and evaluation for machine learning and statistical learning algorithms. </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $59</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $40</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="https://dstk2.sourceforge.io/"  target="_blank" role="button">View details &raquo;</a></p>
+		  
+		  <p>
+		  <a href="https://sourceforge.net/projects/dstk3/files/latest/download" target="_blank"><img alt="Download Data Science TooKit 3" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
+		  </p>
+		</div>
+        <div class="col-lg-4">
+          <h4>JAOSS - Online Statistical System</h4>
+		  <br />
+          <p>JAOSS - Just Another Online Statistical System. A simple statistical system with fairly sophisticated features such as descriptive statistics analysis, inferential statistics with ANOVA and T-Test, Predictive Analytics with Neural Network. The application is written in R and Shiny, with an aim in mind to provide online access to simplistic statistical system before proceed to advanced softwares such as SPSS or DSTK. This product is currently available as FREEware.</p>
+          <p><a class="btn btn-primary" href="https://dstk2.sourceforge.io/ target="_blank" role="button">View details &raquo;</a></p>
+		  <p><a class="btn btn-primary" href="https://gohminghui88.shinyapps.io/JAOSS/" target="_blank" role="button">Demo &raquo;</a></p>  
+		</div>
+        <div class="col-lg-4">
+          <h4>JATAS - Online Text Analysis</h4>
+		  <br />
+          <p>JATAS - Just Another Text Analysis System. A simple text analytics system with fairly sophisticated features such as text preprocessing (stemmer, stopwords...), Visualizations, and Predictive Analytics with SVM. The application is written in R and Shiny, with an aim in mind to provide online access to simplistic text analysis system before proceed to advanced softwares such as SPSS Modeler or DSTK. This product is currently available as FREEware..</p>
+          <p><a class="btn btn-primary" href="https://dstk2.sourceforge.io/" target="_blank" role="button">View details &raquo;</a></p>
+		  <p><a class="btn btn-primary" href="https://gohminghui88.shinyapps.io/JATAS/" target="_blank" role="button">Demo &raquo;</a></p>
+        </div>
+      </div>
+	  
+	  <div class="row">
+	  
+	  <br /><br />
+	  <center>
+	  <div class="row mb-5">
+			<div class="col-lg-6 col-md-12">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/OZ_2lqhn6KE?list=PLOWJ5xJpZCIpPRYy7YpBQLobA8UAZfZ4n&amp;ecver=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="col-lg-6 col-md-12">
+			
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ghtDD8mt1v4?list=PLOWJ5xJpZCIpPRYy7YpBQLobA8UAZfZ4n&amp;ecver=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>	
+			
+			</div>
+			
+		</div>	
+		</center>
+		<br /><br />
+	  </div>
+	  <!--
+	  <div class="row">
+		
+		<div class="col-lg-4">
+		<br /><br />
+          <a href="http://dstk.tech"  target="_blank"><h4>More at DSTK.Tech... </h4></a>
+        </div>
+	  </div> -->
+	 </div>
+	 <div class="container content1" id="about">
+	 <center><h3>Sponsors Us</h3></center>
+	 <br />
+	 <div class="row">
+	 
+	 <div class="col-lg-4">
+	 <h4>$5 a month</h4>
+	 <p>
+	 Support me with a monthly donation and let me continue my activities. It means a lot to me.
+	 </p>
+	 <br /><p><a class="btn btn-primary" href="https://github.com/sponsors/gohminghui88" target="_blank" role="button">GitHub &raquo;</a></p>
+	 </div>
+	 
+	 <div class="col-lg-4">
+	 <h4>$10 a month</h4>
+	 <p>
+	 Become a Diamond Sponsor with a monthly donation of $10 and get your name on readme.md on GitHub.
+	 </p>
+	 <br /><p><a class="btn btn-primary" href="https://github.com/sponsors/gohminghui88" target="_blank" role="button">GitHub &raquo;</a></p>
+	 </div>
+	 
+	 <div class="col-lg-4">
+	 <h4>$20 a month</h4>
+	 <p>
+	 Become a Ruby Sponsor with a monthly donation of $20 and get your name on readme.md on GitHub and http://DSTK.Tech.
+	 </p>
+	 <br /><p><a class="btn btn-primary" href="https://github.com/sponsors/gohminghui88" target="_blank" role="button">GitHub &raquo;</a></p>
+	 </div>
+	 
+	 <div class="col-lg-4">
+	 <h4>$50 a month</h4>
+	 <p>
+	 Become a Sapphire Sponsor with a monthly donation of $20 and get your name on readme.md on GitHub and logo on http://DSTK.Tech.
+	 </p>
+	 <br /><p><a class="btn btn-primary" href="https://github.com/sponsors/gohminghui88" target="_blank" role="button">GitHub &raquo;</a></p>
+	 </div>
+	 
+	 <div class="col-lg-4">
+	 <h4>$100 a month</h4>
+	 <p>
+	 Become an Emerald Sponsor with a monthly donation of $100 and get your name on readme.md on GitHub and logo on http://DSTK.Tech and 28 courses FREE on http://EMHAcademy.com
+	 </p>
+	 <br /><p><a class="btn btn-primary" href="https://github.com/sponsors/gohminghui88" target="_blank" role="button">GitHub &raquo;</a></p>
+	 </div>
+	 
+	 
+	 
+	 </div>
+	 
+	 </div>
+	 
+	 
+	 
+	 
+	
+	
+	
+	<!-- Courses -->
+	<div class="container content1" id="courses">
+		<center><h2>And We Started Our Online Course... </h2></center>
+		<br />
+		<div class="row">
+        
+		<div class="col-lg-4">
+		  <img src="./images/course6.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Advanced Certificate in Data Science with DSTK, Excel, and RapidMiner</h3>
+		  <br />
+          <p>Have you ever wanted to learn data and text mining? Data Science is a very hot trend now. You need to complete four courses - Learn Microsoft Excel Basics Fast, Learn Data Analysis using Microsoft Excel Basics Fast, Data Mining with RapidMiner, Introduction to Data and Text Mining with DSTK 3 (FREE) and passed a exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>. This course is based on our ebook at <a href="http://www.svbook.com" target="_blank">SVBook.com</a>. </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $57.87</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $42</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course2.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Certified Data Miner using Python </h3>
+		  <br />
+          <p>Have you ever wanted to learn data mining? Data Science is a very hot trend now. You need to complete four courses - Create Your Calculator: Learn Python Programming Basics Fast (Python Basics), Applied Statistics using Python with Data Processing (Data Understanding and Data Preparation), Advanced Data Visualizations using Python with Data Processing (Data Understanding and Data Preparation), Machine Learning with Python (Modeling and Evaluation) and passed a exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>. This course is based on our Python book at <a href="https://www.svbook.com" target="_blank">SVBook</a>.  </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $70.86</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $29</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course4.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Certified Data Miner using R</h3>
+		  <br />
+          <p>Have you ever wanted to learn data mining? Data Science is a very hot trend now. You need to complete four courses - Create Your Calculator: Learn R Programming Basics Fast (R Basics), Applied Statistics using R with Data Processing (Data Understanding and Data Preparation), Advanced Data Visualizations using R with Data Processing (Data Understanding and Data Preparation), Machine Learning with R (Modeling and Evaluation) and passed a exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>. This course is based on our R book at <a href="https://www.apress.com/in/book/9781484241998" target="_blank">Apress</a>.  </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $70.86</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $29</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		
+		
+		</div>
+		
+		<div class="row">
+		
+		<div class="col-lg-4">
+		  <img src="./images/course3.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Advanced Certificate in Microsoft Office and Data Analysis with Excel</h3>
+		  <br />
+          <p>Have you ever wanted to learn data mining? Data Science is a very hot trend now. You need to complete four courses - Learn Microsoft Word Basics Fast, Learn Microsoft PowerPoint Basics Fast, Learn Microsoft Excel Basics Fast , Learn Data Analysis using Microsoft Excel Basics Fast and passed a exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>. </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $70.86</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $29</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course4.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Advanced Certificate in Data Visualization and Front End Web Development</h3>
+		  <br />
+          <p>Have you ever wanted to learn data visuaizations? Data Science is a very hot trend now. You need to complete courses - Learn HTML Basics Fast, Learn CSS Basics Fast, Learn Javascript Basics Fast, Learn Bootstrap Basics Fast, Fundamentals of Plotly JS for Data Visualization and passed a 50 questions Exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>. </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $83.85</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $16</td>
+				<td>Was $99</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course2.jpg" width=80% height=100%/>
+		  <br />
+          <h3>SVBook Advanced Certificate in Software Development </h3>
+		  <br />
+          <p>Have you ever wanted to learn programming and software development? You need to complete - Create Your Calculator: Learn R Programming Basics Fast, Create Your Calculator: Learn Python Programming Basics Fast, Create Your Calculator: Learn C Programming Basics Fast, Create Your Calculator: Learn C# Programming Basics Fast, Create Your Calculator: Learn Java Programming Basics Fast, Create Your WebBrowser: Learn C# Fundamentals Practically (GUI) and passed an exam at <a href="http://www.emhacademy.com" target="_blank">EMHACademy.com</a>.  </p>
+          
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $96.84</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $104</td>
+				<td>Was $200</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<!--
+		<div class="row">
+		
+		<div class="col-lg-4">
+		<br /><br />
+          <a href="http://emhacademy.com" target="_blank"><h4>More at EMHAcademy... </h4></a>
+        </div>
+	  </div>
+		-->
+		</div>
+		
+	</div>
+	
+	
+	<!-- Courses -->
+	<div class="container content1" id="courses">
+		<center><h2>And We Started Our Face to Face Course... </h2></center>
+		<br />
+		<div class="row">
+        
+		<div class="col-lg-4">
+		  <img src="./images/course6.jpg" width=80% height=100%/>
+		  <br />
+          <h3>Learn Data Analysis with Microsoft Excel</h3>
+		  <br />
+          <p>
+		  Have you ever wanted to learn Microsoft Excel for data analysis? This course is for you. This course is specially designed for you to quickly and easily gain all the fundamental skills of Excel to do simple data analysis, regardless of your background.
+		  
+		  We will covers:<br />- Getting Started- Formatting<br />- Basic Functions<br />- Data Mining Process (CRISP)<br />- Data Understanding: Data Visualization (basic plottings)<br />- Data Analytics Plugins<br />- Data Undestanding: Descriptive Statistics<br />- Data Understanding: Inferential Statistics<br />- Data Understanding: Regression Analysis<br />- Data Understanding: Pivot Table and Pivot Charts<br />- Data Preparation: Basic Data Cleaning<br />The above course follows CRISP DM process. <br />You will need to bring your own laptop. <br />Location is in Singapore.<br />
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $240</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $340</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  <br />To Join, Follow us at our Meetup Events: <a href="https://www.meetup.com/SVBook/" target="_blank">https://www.meetup.com/SVBook/</a>
+
+
+		  
+		  </p>
+          
+		  <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course4.jpg" width=80% height=100%/>
+		  <br />
+          <h3>Learn RapidMiner for Data Mining </h3>
+		  <br />
+          <p>
+		  Have you ever wanted to learn RapidMiner for data mining? This course is for you. This course is specially designed for you to quickly and easily gain all the fundamental skills of RapidMiner to do simple data mining, regardless of your background.
+
+		  We will covers:
+
+		  <br />- Getting Started
+		  <br />- Data Mining Process (CRISP)
+		  <br />- Loading Data
+		  <br />- Data Understanding: Descriptive Statistics
+		  <br />- Data Understanding: Data Visualization (basic plottings)
+		  <br />- Data Preparation: Basic Data Cleaning
+		  <br />- Modeling: Simple Prediction Modeling (Regressions, Naives Bayes, KNN)
+		  <br />- Evaluation (Confusion matrix)
+
+          <br />The above course follows CRISP DM process. <br />You will need to bring your own laptop. <br />Location is in Singapore.<br />
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $240</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $340</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  <br />To Join, Follow us at our Meetup Events: <a href="https://www.meetup.com/SVBook/" target="_blank">https://www.meetup.com/SVBook/</a>
+
+		  
+		  </p>
+          <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		<div class="col-lg-4">
+		  <img src="./images/course4.jpg" width=80% height=100%/>
+		  <br />
+          <h3>Learn Python for Data Mining</h3>
+		  <br />
+          <p>
+		  
+		  Have you ever wanted to learn Python Programming for data mining? This course is for you. This course is specially designed for you to quickly and easily gain all the fundamental skills of Python to do simple data mining, regardless of your background.
+
+          We will covers:
+
+          <br />- Getting Started
+		  <br />- Variables and data types
+		  <br />- Data Frame
+		  <br />- Decision Making (if statements)
+		  <br />- Import CSV
+		  <br />- Data Mining Process (CRISP)
+		  <br />- Data Understanding: Descriptive Statistics
+		  <br />- Data Understanding: Data Visualization (basic plottings)
+		  <br />- Data Preparation: Basic Data Cleaning
+		  <br />- Modeling: Simple Prediction Modeling (Regressions, Naives Bayes, KNN)
+		  <br />- Evaluation (Confusion matrix)
+          
+		  <br />The above course follows CRISP DM process. <br />You will need to bring your own laptop. <br />Location is in Singapore.<br />
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $240</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $20</td>
+				<td>Was $340</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <br />To Join, Follow us at our Meetup Events: <a href="https://www.meetup.com/SVBook/" target="_blank">https://www.meetup.com/SVBook/</a>
+
+
+		  </p>
+          <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		
+		
+		</div>
+		
+		<div class="row">
+		
+		<div class="col-lg-4">
+		  <img src="./images/course4.jpg" width=80% height=100%/>
+		  <br />
+          <h3>Learn R Programming for Data Mining</h3>
+		  <br />
+          <p>
+		  Have you ever wanted to learn R Programming for data mining? This course is for you. This course is specially designed for you to quickly and easily gain all the fundamental skills of R to do simple data mining, regardless of your background.
+
+          We will covers:
+		  <br />- Getting Started
+		  <br />- Variables and data types
+		  <br />- Operators
+		  <br />- Vector
+		  <br />- Data Frame
+		  <br />- Decision Making (if statements)
+		  <br />- Import CSV
+		  <br />- Data Mining Process (CRISP)
+		  <br />- Data Understanding: Descriptive Statistics
+		  <br />- Data Understanding: Data Visualization (basic plottings)
+		  <br />- Data Preparation: Basic Data Cleaning
+		  <br />- Modeling: Simple Prediction Modeling (Regressions, Naives Bayes, KNN)
+		  <br />- Evaluation (R2, Confusion matrix)
+		  
+		  <br />The above course follows CRISP DM process. <br />You will need to bring your own laptop. <br />Location is in Singapore.<br />
+		  
+		  
+		  <table border = 0 cellspacing=5 cellpadding=5>
+			<tr>
+				<td><h3>USD $240</h3></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td style="background-color: red; color: white">Save $100</td>
+				<td>Was $340</td>
+			</tr>
+			
+			
+		  </table>
+		  <br /><br />
+		  
+		  <br />To Join, Follow us at our Meetup Events: <a href="https://www.meetup.com/SVBook/" target="_blank">https://www.meetup.com/SVBook/</a>
+
+		  </p>
+          <p><a class="btn btn-primary" href="http://emhacademy.com" target="_blank" role="button">View Course &raquo;</a></p>
+        </div>
+		
+		
+		
+		<!--
+		<div class="row">
+		
+		<div class="col-lg-4">
+		<br /><br />
+          <a href="http://emhacademy.com" target="_blank"><h4>More at EMHAcademy... </h4></a>
+        </div>
+	  </div>
+		-->
+		</div>
+		
+	</div>
+	
+	
+	<!--Author-->
+	<div class="container content3" id="author">
+		<center><h2>About The Author...</h2></center>
+		<br />
+		<center><img src="./images/myPhoto3_1.jpg" class="img-thumbnail" width="150px"  height="300px"/></center>
+		<br />
+		<p><br /><br /><br /><b>Mr. Eric M. H. Goh</b><br />
+
+		Eric Goh is a data scientist, software engineer, adjunct faculty and entrepreneur with years of 
+experiences in multiple industries. His varied career includes data science, data and text mining, 
+natural language processing, machine learning, intelligent system development, and engineering 
+product design. He founded <b>SVBook sole proprietorship in 2016 and reregister to SVBook Pte. Ltd. in 2018,</b> because of contract requirements, and extended it with <a href="https://dstk2.sourceforge.io/" target="_blank">DSTK.Tech</a> and <a href="http://emhacademy.com"  target="_blank">EMHAcademy.com</a>. 
+DSTK.Tech is where Eric develops his own DSTK data science softwares (public version) and uploaded at <a href="https://sourceforge.net/u/gohminghui88/profile/" target="_blank">sourceforge</a> and <a href="https://github.com/gohminghui88?tab=overview&from=2020-12-01&to=2020-12-31" target="_blank">github</a>. Eric also published 
+<a href="https://www.apress.com/gp/book/9781484241998" target="_blank">“Learn R for Applied Statistics”</a> at Apress, and published some books at <a href="https://leanpub.com/u/ericgoh" target="_blank">LeanPub</a>  and SVBook Pte. Ltd. He teaches 
+the content at <a href="https://www.udemy.com/user/gohminghui/" target="_blank">Udemy</a> and EMHAcademy.com, and developed 28 courses, 1 E-Diploma, 7 advanced certificates. Eric is also an 
+adjunct faculty at Universities and Institutions, which is a consultancy from EMHAcademy.com.
+		</p>
+
+		<p>
+		Eric Goh has been leading his teams for various industrial projects, including the advanced product code classification 
+system project which automates Singapore Custom’s trade facilitation process, and Nanyang Technological University's data 
+science and ranking projects where he develop his own DSTK data science software (NTU version) for QS ranking project, JATI for QS mobile 
+apps screenshots to text project and JAVT for Convocation videos to text project. Eric wrote some guides to use these softwares for NTU projects - <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/EbiBhx0AoipCordy7r18dVMBbC4npMW199R6hGMcrSrVWg?e=SQSLKX" target="_blank">DSTK</a>, <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/Ed__5-TprhtOirvWV9AFEnEBHN7nV3vcgYMRgFRefimFSw?e=GHuAP7" target="_blank">JAVT</a>, <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/EUQ2-z313dRFnyUZWmLVFbUB7kLMY93-ypSGj7NWqao8EA?e=IZzqle" target="_blank">JATI</a> . While in NTU, from 2015 to 2018, NTU ranking did not fall even when 
+NUS ranking fall - <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/Ebystvj9TdJJtnXGARJB_g4Bhdur7XTu4ryD9Qq3b81Yug?e=L5q7r6" target="_blank">First Year, </a><a href=" https://svbook-my.sharepoint.com/:i:/p/gohminghui88/ERzKGR51OMhAj692Z328U8MBNX8HRP1tklhKtHiHBuPZMA?e=JDjykW" target="_blank">Second Year, </a> <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/EQQvsBPCpilFou0O2ovemywBjRSx40IC22N08JMlZ-W6ww?e=hk22Ro" target="_blank">Third Year. </a>In second year, NTU data increases, hence, research and development of DSTK (NTU Version) software, and management reduced the data 
+for third year. DSTK (public version) is at <a href="https://dstk2.sourceforge.io/" target="_blank">DSTK.Tech</a>, DSTK is developed in <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/EXAV90UlyDNGvkDHbk_EJ_gB8WEzh3DWV2EuwnLtsWWLQA?e=5wH3Yd" target="_blank">2017</a> and is similar to the <a href="https://sourceforge.net/projects/quilledit/" target="_blank">QuillEdit</a> software developed in <a href="https://svbook-my.sharepoint.com/:i:/p/gohminghui88/EXT7BGVIUIFOpo38kx31HvcBJvmEfYsmZgwiYL7m-D5xNw?e=haK6vN" target="_blank">2006</a>.  He has years of experience in C#, Java, C/C++, SPSS Statistics and Modeller, SAS Enterprise Miner, R, Python, Excel, 
+Excel VBA and etc. He won Tan Kah Kee Young Inventors' Merit Award and Shortlisted Entry for TelR Data Mining Challenge.
+		</p>
+
+		<p>
+		Eric holds a Masters of Technology degree in Knowledge Engineering (Machine Learning) from the National University of Singapore (NUS) (download <a href="https://svbook-my.sharepoint.com/:t:/p/gohminghui88/Eenuq-eNR4JCh1VhELzph64BbZVIRd_sd1U3vZHe0BfOYQ?e=PYEDno" target="_blank">opencert</a> file and put <a href="https://www.opencerts.io/" target="_blank">here</a>. <a href="https://www.channelnewsasia.com/news/singapore/students-graduating-tamper-resistant-digital-certificates-11499166">What is OpenCert....</a> ) in 2013. 
+Eric also possessed Executive Master of Business Administration (MBA) degree (click <a href="https://gradecard.ignou.ac.in/gradecardR/Result.asp?eno=100174990&program=EMBAIT&hidden_submit=OK" target="_blank">here</a>) from IGNOU (<a href="http://ignou.ac.in/" target="_blank">http://ignou.ac.in</a>) and Executive Certificate in Global IT Management from U21Global (currently <a href="https://www.globalnxt.edu.my/gnxt.html" target="_blank">GlobalNxt</a>) in 2012, where he's delayed and left exams while studying in NUS. He has a Graduate Diploma in Mechatronics from A*STAR SIMTech (a <a href="https://www.a-star.edu.sg/simtech/contact-us" target="_blank">national research institute</a> located in 
+Nanyang Technological University) in 2011, which he completed while working in SUTD. He has Coursera <a href="https://coursera.org/share/ee4f63b1f0f66cdac69060ac01aee4b6" target="_blank">Specialization Certificate in Business Statistics and Analysis </a>(Excel) from Rice University in 2017, 
+<a href="https://www.youracclaim.com/badges/d8ed61cc-d433-435a-aedc-77bea35543d1/public_url" target="_blank">IBM Data Science Professional Certificate</a>  (Python, SQL) in 2018, and Coursera Verified <a href="https://coursera.org/share/4203d5fab3808f318dcd9f52eb7e16d8" target="_blank">Certificate in R Programming</a> from Johns Hopkins University in 2017, <a href="https://svbook-my.sharepoint.com/:b:/p/gohminghui88/EU4aJiZpNx9Fu8ZYAMqKsdEBuEy8gW0xJzHqSteL48yzEQ?e=xTQ79w" target="_blank">More Data Mining with Weka Certificate</a> from University of Waikato, Coursera Verified <a href="https://coursera.org/share/4b1679ec9a187af9d54f9dd3254d5ebe" target="_blank">Certificate in Data Visualization and Communication with Tableau</a> from Duke University in 2016, Coursera Verified <a href="https://coursera.org/share/cacde041f13eed4dffe8745f6763f9fe" target="_blank">Certificate in Internet of Things and Augmented Reality Emerging Technologies</a> from Yonsei University in 2017. 
+Eric continuous upgrade himself using Coursera courses after 2013, which are University courses. He possessed a Bachelor of Science degree in Computing from the University of Portsmouth in 2010, which he completed while in National Service (2008 to 2010). He holds a Diploma with Merit in Electronics and Computer Engineering from Ngee Ann Polytechnic in 2008. He is also an AIIM Certified 
+Business Process Management Master (BPMM) in 2011, GSTF certified Big Data Science Analyst (CBDSA), IES Certified Lecturer in 2016, and holds the <a href="https://coursera.org/share/c8d2f9e85b3b5c3d293d844b2c3f1528" target="_blank">Coursera Verified Certificate in University 
+Teaching</a> from The University of Hong Kong in 2019, and University of Wisconsin-Madison Fundamentals of Online Teaching certificate in 2016. 
+		</p>
+		
+		
+
+
+		<p>
+			<a href="https://gohminghui88.github.io" target="_blank">More...</a>
+		</p>
+		<br />
+		<p><a class="btn btn-primary" href="mailto:gohminghui88@svbook.com" target="_blank" role="button">Request Information</a></p>
+		<br /><br /><br /><br /><br />
+		
+	</div>
+	
+	
+	<!--Contact-->
+	<div class="container content1" id="contact">
+		<h3 class="text-center">Contact</h3>
+  
+		<div class="row test">
+			<div class="col-md-4">
+				<p>Question?</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span>Singapore</p>
+				<!--<p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>-->
+				<!--<p><span class="glyphicon glyphicon-envelope"></span>Email: gohminghui88@svbook.com</p>--> 
+			</div>
+    
+			<div class="col-md-8">
+				<div class="row">
+					<form name="contactform" action="mailto:gohminghui88@svbook.com " method="post" enctype="text/plain" >
+					<div class="col-sm-6 form-group">
+						<input class="form-control" name="name" placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" name="email" placeholder="Email" type="text" required>
+					</div>
+				</div>
+				<textarea class="form-control" name="comments" placeholder="Comment" rows="5" cols="25"></textarea>
+				<div class="row">
+					<div class="col-md-12 form-group">
+						<input type="submit" value="Submit">
+					</div>
+				</div> 
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<style>
+		/* Add a dark background color to the footer */
+		footer {
+			background-color: #2d2d30;
+			color: #f5f5f5;
+			padding: 32px;
+		}
+
+		footer a {
+			color: #f5f5f5;
+		}
+
+		footer a:hover {
+			color: #777;
+			text-decoration: none;
+		}
+		
+		.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+	</style>
+
+	<footer class="text-center">
+		<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		
+		<br><br>
+		
+		<p>Follow us at: </p>
+		<a href="https://www.facebook.com/svbooks/" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://www.linkedin.com/company/svbook/" target="_blank" class="fa fa-linkedin"></a>
+		<a href="https://mobile.twitter.com/sv_book" target="_blank" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/svbook/?hl=en" target="_blank" class="fa fa-instagram"></a>
+		<a href="https://svbook.business.site" target="_blank" class="fa fa-google"></a>
+		<a href="https://edatascience.tumblr.com/" target="_blank" class="fa fa-tumblr"></a>
+		<a href="https://www.youtube.com/watch?v=460YE410JTo&list=PLOWJ5xJpZCIpPRYy7YpBQLobA8UAZfZ4n" target="_blank" class="fa fa-youtube"></a>
+		
+		<br><br>
+		<p>Copyright 2016 &copy; SVBook Pte. Ltd. - All rights reserved. <br /><br />SVBook's ACRA Registration Number: From 53335101D to 201827302H <br /> 22 Sin Ming Lane #06-76 Midview City Singapore 573969</p>
+	</footer>
+	
+</body>

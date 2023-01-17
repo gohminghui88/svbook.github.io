@@ -1,0 +1,205 @@
+[24-Mar-2018 05:47:01 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:17
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 17
+[24-Mar-2018 05:47:10 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:47:40 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:48:30 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:17
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 17
+[24-Mar-2018 05:50:07 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:21
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 21
+[24-Mar-2018 05:51:38 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:21
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 21
+[24-Mar-2018 05:53:20 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:23
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 23
+[24-Mar-2018 05:54:53 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:54:58 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:55:00 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:55:01 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 05:59:24 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:00:23 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:03:52 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:04:01 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:06:48 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:07:03 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:07:23 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 38
+[24-Mar-2018 06:08:38 America/New_York] PHP Notice:  Undefined variable: salt in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 35
+[24-Mar-2018 06:10:14 America/New_York] PHP Notice:  Undefined variable: salt in /home/ztecgqgv/public_html/svbook/coursera3/login.php on line 35
+[24-Mar-2018 06:12:06 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:23
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 23
+[24-Mar-2018 06:24:25 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 06:24:48 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 06:26:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:53:05 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:53:32 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:53:53 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:56:49 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:56:56 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:38
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 38
+[24-Mar-2018 12:57:42 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:39
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 39
+[24-Mar-2018 12:58:56 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:39
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 39
+[24-Mar-2018 12:59:28 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:39
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 39
+[24-Mar-2018 13:00:51 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:40
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 40
+[24-Mar-2018 13:05:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:41
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 41
+[24-Mar-2018 13:06:08 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:41
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 41
+[24-Mar-2018 13:06:14 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:41
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 41
+[24-Mar-2018 13:06:50 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:41
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 41
+[24-Mar-2018 13:07:40 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ztecgqgv_coursera2.profile' doesn't exist' in /home/ztecgqgv/public_html/svbook/coursera3/index.php:41
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/coursera3/index.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/coursera3/index.php on line 41
+[24-Mar-2018 13:09:32 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:12:01 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:13:51 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:14:01 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:14:08 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:14:24 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:14:29 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:16:30 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:17:34 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:18:01 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:20:18 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:20:26 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:20:33 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:20:43 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:21:39 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:32:00 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:32:12 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:34:12 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:34:12 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:34:18 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:34:18 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:35:47 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:35:47 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:35:50 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:35:50 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:41:18 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:41:18 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:42:55 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:42:55 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:43:04 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:43:04 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:43:07 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:43:07 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:43:41 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:43:41 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:50:12 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:50:12 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:52:28 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:52:28 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:52:36 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:52:36 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:55:53 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:55:53 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:56:25 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:56:25 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:57:04 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:57:04 America/New_York] PHP Notice:  Undefined variable: add in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 35
+[24-Mar-2018 13:57:57 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 13:57:57 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 39
+[24-Mar-2018 14:02:05 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 14:02:05 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 88
+[24-Mar-2018 14:02:54 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 14:07:30 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 19
+[24-Mar-2018 14:07:40 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 23
+[24-Mar-2018 14:08:15 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 23
+[24-Mar-2018 14:41:14 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/add.php on line 47
+[24-Mar-2018 15:00:20 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:00:20 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 102
+[24-Mar-2018 15:00:35 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:00:43 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:01:18 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:01:18 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 102
+[24-Mar-2018 15:02:09 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:02:09 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 102
+[24-Mar-2018 15:02:16 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:02:16 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 102
+[24-Mar-2018 15:04:23 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:26:39 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20
+[24-Mar-2018 15:26:40 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:26:40 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:26:40 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:26:40 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:26:41 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:26:41 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/delete.php on line 24
+[24-Mar-2018 15:32:59 America/New_York] PHP Notice:  Undefined index: profile_id in /home/ztecgqgv/public_html/svbook/coursera3/edit.php on line 20

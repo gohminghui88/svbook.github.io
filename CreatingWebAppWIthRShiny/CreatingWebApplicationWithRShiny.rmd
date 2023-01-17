@@ -1,0 +1,262 @@
+---
+title: "Creating Web Application with RShiny"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+
+
+SHiny allows us to create Web Applications. To use R SHiny: 
+
+install.apackages("shiny");
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled9.png) <br /><br /><br />
+
+
+CReate two R scripts, save as ui.R and server,R. both ui.R and server.R must be in same folder. Type everything out, you will understand what it means. 
+
+
+ui.R
+
+````markdown
+
+library(shiny)
+
+shinyUI(pageWithSidebar(
+  
+  headerPanel("Hello Shiny"),
+  
+  sidebarPanel(
+    
+    sliderInput("obs", 
+                "Number of Observations", 
+                min = 1, 
+                max = 1000, 
+                value = 500)
+    
+  ), 
+  
+  mainPanel(
+    plotOutput("distPlot")
+  )
+  
+  
+))
+
+````
+
+
+server.R
+
+````markdown
+
+library(shiny)
+
+shinyServer(function(input, output) {
+
+
+  output$distPlot <- renderPlot({
+  
+    dist <- rnorm(input$obs);
+    hist(dist);
+  })
+})
+````
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled11.png) <br /><br /><br />
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled10.png) <br /><br /><br />
+
+
+
+#Shiny Web App
+
+This is how the Shiny Web App works...
+
+![](https://miro.medium.com/max/875/1*d6MmESIxrtLNsWcsc1QTdQ@2x.jpeg) <br /><br /><br />
+Extracted: https://towardsdatascience.com/build-your-first-shiny-web-app-in-r-72f9538f9868
+
+
+Look at txt1, txt2, and input txt1, input txt2, there are similarities in the ui.R and server.R codes. plotOutput("distPlot") and output$distPlot. 
+![](https://miro.medium.com/max/875/1*5qbpYCz7FUXIuE_6qdqa5A@2x.jpeg) <br /><br /><br />
+Extracted: https://towardsdatascience.com/build-your-first-shiny-web-app-in-r-72f9538f9868
+
+
+#Reactive Expression
+A reactive expression is an R expression that uses widget input and returns a value, the reactive expression will update this value whenever the original widget changes. Ractive expressions are lazy and cached. 
+
+Extracted 
+https://campus.datacamp.com/courses/building-web-applications-with-shiny-in-r/reactive-programming-3?ex=3
+
+
+#Tooling Up
+
+I add in more sleect input, numeric input, radiobuttons, tabPanels...
+
+
+ui.R
+
+````markdown
+
+library(shiny)
+
+shinyUI(pageWithSidebar(
+  
+  headerPanel("Hello Shiny"),
+  
+  sidebarPanel(
+    
+    selectInput("dataset", "Choose a dataset:", 
+                choices = c("fg", "dfg", "gdh")),
+    
+    numericInput("obs2", "Number of observations to view:", 10),
+    
+    sliderInput("obs", 
+                "Number of Observations", 
+                min = 1, 
+                max = 1000, 
+                value = 500),
+    
+    radioButtons("dist", "Distribution Type", 
+                 list("Normal" = "norm", 
+                      "Uniform" = "unif", 
+                      "Log-normal" = "lnorm", 
+                      "Exponentil" = "exp"
+                      ))
+    
+  ), 
+  
+  mainPanel(
+    
+    tabsetPanel (
+      tabPanel("Plot", plotOutput("distPlot")), 
+      tabPanel("Summary", verbatimTextOutput("Summary")),
+      tabPanel("Table", tableOutput("table")), 
+      tabPanel("DatatTable", dataTableOutput("myTable"))
+    )
+  )
+  
+  
+))
+
+````
+
+
+server.R
+
+````markdown
+
+library(shiny)
+library(datasets)
+
+shinyServer(function(input, output) {
+  
+  
+  output$distPlot <- renderPlot({
+    
+    dist <- rnorm(input$obs);
+    hist(dist);
+  })
+  
+  output$summary <- renderPrint({
+    
+    summary(iris);
+    
+  })
+  
+  output$table <- renderTable({
+    data.frame(x = iris)
+  })
+  
+  output$myTable <- renderDataTable({
+    iris
+  }, , options = list(aLengthMenu = c(5, 30, 50), iDisplayLength = 5))
+  
+})
+````
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled14.png) <br /><br /><br />
+
+#COVID 19 Project
+
+After learning about R shiny basics, we can create COVID 19 dashboards. You need to wait for the data to be downloaded. 
+
+ui.R
+````markdown
+
+library(shiny)
+
+shinyUI(pageWithSidebar(
+  
+  headerPanel("COVID 19"),
+  
+  sidebarPanel(
+    
+    selectInput("Countries", "Countries: ", selected = "Singapore", choices = c("Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua_and_Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bonaire, Saint Eustatius and Saba", "Bosnia_and_Herzegovina", "Botswana", "Brazil", "British_Virgin_Islands", "Brunei_Darussalam", "Bulgaria", "Burkina_Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape_Verde", "Cases_on_an_international_conveyance_Japan", "Cayman_Islands", "Central_African_Republic", "Chad", "Chile", "China", "Colombia", "Congo", "Costa_Rica", "Cote_dlvoire", "Croatia", "Cuba", "Curaçao", "Cyprus", "Czechia", "Democratic_Republic_of_the_Congo", "Denmark", "Djibouti", "Dominica", "Dominican_Republic", "Ecuador", "Egypt", "El_Salvador", "Equatorial_Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Falkland_Islands_(Malvinas)", "Faroe_Islands", "Fiji", "Finland", "France", "French_Polynesia", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea_Bissau", "Guyana", "Haiti", "Holy_See", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Isle_of_Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nepal", "Netherlands", "New_Caledonia", "New_Zealand", "Nicaragua", "Niger", "Nigeria", "North_Macedonia", "Northern_Mariana_Islands", "Norway", "Oman", "Pakistan", "Palestine", "Panama", "Papua_New_Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto_Rico", "Qatar", "Romania", "Russia", "Rwanda", "Saint_Kitts_and_Nevis", "Saint_Lucia",  "Saint_Vincent_and_the_Grenadines", "San_Marino", "Sao_Tome_and_Principe", "Saudi_Arabia", "Senegal", "Serbia", "Seychelles", "Sierra_Leone", "Singapore", "Sint_Maarten", "Slovakia", "Slovenia", "Somalia", "South_Africa", "South_Korea", "South_Sudan", "Spain", "Sri_Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Taiwan", "Thailand", "Timor_Leste", "Togo", "Trinidad_and_Tobago", "Tunisia", "Turkey", "Turks_and_Caicos_islands", "Uganda", "Ukraine", "United_Arab_Emirates",  "United_Kingdom", "United_Republic_of_Tanzania", "United_States_of_America", "United_States_Virgin_Islands", "Uruguay", "Uzbekistan", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"))
+    
+  ), 
+  
+  mainPanel(
+    
+    tabsetPanel (
+      tabPanel("Cases", plotOutput("distPlot")), 
+      tabPanel("Death", plotOutput("distPlot2")), 
+      tabPanel("Table", tableOutput("table"))
+    )
+  )
+  
+  
+))
+
+
+````
+
+server.R
+````markdown
+
+library(shiny)
+library(datasets)
+
+data <- read.csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv", na.strings = "", fileEncoding = "UTF-8-BOM")
+print(data);
+
+shinyServer(function(input, output) {
+  
+  newData <- reactive({data[which(data$countriesAndTerritories==input$Countries), ]});
+  
+  output$distPlot <- renderPlot({
+    
+    #newData <- data[which(data$countriesAndTerritories=="Singapore"), ];
+    SepData <- newData()[which(newData()$month==9), ];
+    
+    plot(SepData$day, SepData$cases, type="l");
+    
+    
+  })
+  
+  output$distPlot2 <- renderPlot({
+    
+    #newData <- data[which(data$countriesAndTerritories=="Singapore"), ];
+    SepData <- newData()[which(newData()$month==9), ];
+    
+    plot(SepData$day, SepData$death, type="l");
+    
+    
+  })
+  
+  output$table <- renderTable({
+    newData()
+  })
+  
+})
+
+````
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled12.png) <br /><br /><br />
+
+
+If you want to know more about COVID 19 dashboards
+
+https://github.com/gohminghui88/covid
+
+https://gohminghui88.shinyapps.io/COVID19/
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled13.png) <br /><br /><br />

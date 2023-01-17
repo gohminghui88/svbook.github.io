@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^notes\.svbook\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.notes\.svbook\.com$
+RewriteRule ^/?$ "http\:\/\/www\.svbook\.com\/CryptoNotes\/" [R=301,L]
+

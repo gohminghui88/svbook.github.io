@@ -1,0 +1,23 @@
+2017-09-22 10:30:19 weka.gui.GUIChooser main
+INFO: Logging started
+---Registering Weka Editors---
+Trying to add database driver (JDBC): jdbc.idbDriver - Error, not in CLASSPATH?
+2017-09-22 10:30:26 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2017-09-22 10:30:26 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2015 The University of Waikato, Hamilton, New Zealand
+2017-09-22 10:30:26 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2017-09-22 10:30:26 weka.gui.explorer.Explorer <init>
+INFO: Started on Friday, 22 September 2017
+CALLED ExperimentEnvironment
+[DEBUGGER] ---- Setup
+Tester set to: weka.experiment.PairedCorrectedTTester
+2017-09-22 10:33:50 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2017-09-22 10:33:50 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2015 The University of Waikato, Hamilton, New Zealand
+2017-09-22 10:33:50 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2017-09-22 10:33:50 weka.gui.explorer.Explorer <init>
+INFO: Started on Friday, 22 September 2017

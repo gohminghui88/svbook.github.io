@@ -1,0 +1,23 @@
+/*Text Color Start*/
+strong.logo a span, .navigation-area .navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover, .navigation-area .navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navigation-area .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus, .banner .caption .text-box strong.title, #banner .caption .text-box a.btn-purchase, .book-detail .text-box strong.title span.color, .features-section strong.title span, .mobile-section-slider strong.title span.color, .mobile-section-slider .text-box p .fa, .about-author strong.author, .quick-peak-section .head strong.title span.color, .book-cap strong.title, .book-cap p span, .neswletter-section strong.title span, .bb-custom-firstpage h2, .bb-custom-side .review_list .fa, .bb-custom-wrapper .book-title, .book-section h2, .post-box .text-box .date-box strong.date, .categorie li a:hover, .banner .caption .text-box a.btn-purchase{
+	color:#fd7903 !important;
+}
+/*Text Color End*/
+
+/*Background Color Start*/
+.navigation-area .navbar .nav > li > a:hover:before, .navigation-area .navbar .nav > li.active > a:before, .banner .bx-wrapper .bx-next, .banner .bx-wrapper .bx-prev, .features-box:hover, .mobile-ready-section .head, .mobile-section-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .social-area li a:hover, .post-box .text-box .date-box strong.comment, .bottom-row:before, .pagination-box .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span, .tags li a:hover {
+	background-color:#fd7903;
+}
+/*Background Color End*/
+
+/*Border Color Start*/
+#banner .caption .text-box a.btn-purchase, .post-box .bx-wrapper .bx-controls-direction a, .testimonials-box .bx-wrapper .bx-controls-direction a:hover, .project-box .bx-wrapper .bx-controls-direction a:hover, .banner .caption .text-box a.btn-purchase{
+	border-color:#fd7903;
+}
+/*Border Color End*/
+
+/*Button Color Start*/
+.book-detail .text-box a.btn-buy, .about-author a.btn-information, .btn-subscribe, .bottom-row a.readmore, .comment-form input[type="submit"]{
+	background-color:#fd7903;
+}
+/*Button Color End*/

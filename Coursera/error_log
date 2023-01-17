@@ -1,0 +1,149 @@
+[23-Mar-2018 15:06:35 America/New_York] Login fail umsi@umich.edu Passwords not correct. 
+[23-Mar-2018 15:06:35 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:06:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:18:13 America/New_York] Login fail umsi@umich.edu Incorrect password. 
+[23-Mar-2018 15:18:13 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:18:13 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:19:09 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:19:09 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:19:09 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:20:45 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:20:45 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:20:45 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:24:38 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:24:38 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:24:38 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:25:27 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:25:27 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:25:27 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:27:25 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:27:25 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:27:25 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:41:51 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:41:51 America/New_York] Login success umsi@umich.edu
+[23-Mar-2018 15:41:51 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:43:04 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:43:05 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:43:47 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:43:47 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:45:35 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:45:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[23-Mar-2018 15:49:12 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[23-Mar-2018 15:49:12 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:00:34 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:00:47 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:01:23 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): require('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:02:28 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): include('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:02:38 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): include('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:04:48 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'eric'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'eric', 'zap')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): include('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:11:00 America/New_York] Login success ggg@ggg
+[24-Mar-2018 02:11:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ztecgqgv_ericgoh'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'ztecgqgv_ericgo...', '1987gMh@nus8')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): include('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:12:16 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ztecgqgv_ericgoh'@'localhost' (using password: YES)' in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php:2
+Stack trace:
+#0 /home/ztecgqgv/public_html/svbook/Coursera/pdo.php(2): PDO->__construct('mysql:host=loca...', 'ztecgqgv_ericgo...', '1987gMh@nus8')
+#1 /home/ztecgqgv/public_html/svbook/Coursera/autos.php(11): include('/home/ztecgqgv/...')
+#2 {main}
+  thrown in /home/ztecgqgv/public_html/svbook/Coursera/pdo.php on line 2
+[24-Mar-2018 02:18:34 America/New_York] PHP Notice:  Undefined variable: pdo in /home/ztecgqgv/public_html/svbook/Coursera/autos.php on line 79
+[24-Mar-2018 02:18:34 America/New_York] PHP Fatal error:  Call to a member function prepare() on null in /home/ztecgqgv/public_html/svbook/Coursera/autos.php on line 79
+[24-Mar-2018 02:19:19 America/New_York] PHP Notice:  Undefined variable: pdo in /home/ztecgqgv/public_html/svbook/Coursera/autos.php on line 79
+[24-Mar-2018 02:19:19 America/New_York] PHP Fatal error:  Call to a member function prepare() on null in /home/ztecgqgv/public_html/svbook/Coursera/autos.php on line 79
+[24-Mar-2018 02:22:30 America/New_York] Login fail umsi@umich.eduIncorrect password. 
+[24-Mar-2018 02:22:30 America/New_York] Login success umsi@umich.edu
+[24-Mar-2018 02:22:31 America/New_York] Add fail Make cannot be empty. 
+[24-Mar-2018 02:22:31 America/New_York] Add fail Year must be number. 

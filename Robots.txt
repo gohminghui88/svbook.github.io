@@ -1,0 +1,13 @@
+Sitemap: https://online.webceo.com/submission/smaps/a6ea5db5.xml.gz
+
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-Agent: msnbot
+Allow: /  

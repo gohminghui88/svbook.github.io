@@ -1,0 +1,6 @@
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\bin\Release\CryptoNotesGUI.exe.config
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\bin\Release\CryptoNotesGUI.exe
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\obj\Release\CryptoNotesGUI.csprojResolveAssemblyReference.cache
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\obj\Release\CryptoNotesGUI.MainForm.resources
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\obj\Release\CryptoNotesGUI.csproj.GenerateResource.Cache
+D:\EricGoh\MyProjects\CryptoNotesGUI\CryptoNotesGUI\obj\Release\CryptoNotesGUI.exe

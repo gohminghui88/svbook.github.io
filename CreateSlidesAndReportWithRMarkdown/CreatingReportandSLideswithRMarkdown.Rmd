@@ -1,0 +1,461 @@
+---
+title: "Creating Report and Slides with RMarkdown"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+
+
+
+
+
+# Starting
+
+To use RMarkdown, we have to get rmarkdown packages:  
+
+
+````markdown
+install.packages("rmarkdown");
+````
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled.png)   <br /><br /><br /> 
+
+
+
+
+To start, 
+
+We rename a R Script to Rmd or File > NEw File > R MArkdown  
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled2.png)  <br /><br /><br />
+
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled3.png)  <br /><br /><br />
+
+
+To compile the codes, 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled4.png)  <br /><br /><br />
+
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled5.png)  <br /><br /><br />
+
+If we want html, we use html_document. If we want pdf, we use pdf_document. 
+
+
+````markdown
+---
+title: "Creating Report and Slides with RMarkdown"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+````
+
+output | change to
+-------|---------------
+html   | output: html_document
+pdf    | output: pdf_document
+word   | output: word_document
+
+
+
+#RMarkdown
+
+We can get headers
+
+````markdown
+
+# header 1
+## header 2
+### header 3
+#### header 4
+##### header 5
+###### header 6
+
+````
+
+# header 1
+## header 2
+### header 3
+#### header 4
+##### header 5
+###### header 6
+
+modify your codes and compile them. Play with your coes, you can see above for references. 
+
+<br /><br />
+
+To use line breaks, we end with two spacings
+
+````markdown
+line breaks, end with two spaces
+dkdjhdjk
+````
+
+line breaks, end with two spaces  
+dkdjhdjk
+
+<br /><br />
+To make text italics, we can or use: 
+
+````markdown
+*italics*
+**bold**
+superscript^23^
+~~strikethrogh~~
+[link](www.dstk.tech)
+````
+
+*italics*  
+**bold**  
+superscript^23^  
+~~strikethrough~~  
+[link](www.dstk.tech)  
+
+
+<br /><br />
+To have endash, we use: 
+
+````markdown
+endash: --
+emdash: ---
+ellipsis: ...
+````
+
+endash: --  
+emdash: ---  
+ellipsis: ...  
+
+<br /><br />
+To write maths, we use $$ and Latex
+
+````markdown
+$\pi \frac{a}{b}$
+
+````
+
+$\pi \frac{a}{b}$
+
+<br /><br />
+To put image, we use: 
+
+````markdown
+image: ![](https://dstk.tech/images/DSTK.Tech2.png)
+
+````
+image: ![](https://dstk.tech/images/DSTK.Tech2.png)
+
+
+<br /><br />
+To put horizontal rule, we use: 
+
+````markdown
+horizontal rule
+
+***
+
+````
+***
+
+<br /><br />
+To use blockquote, we use: 
+
+````markdown
+> block quote
+````
+
+> block quote
+
+
+<br /><br />
+To have list, we use: 
+
+````markdown
+* bird
+* cat
+* dog
+````
+
+* bird
+* cat
+* dog
+
+<br /><br />
+To have ordered list, we use: 
+
+````markdown
+1. bird
+2. dog
+3. cat
+````
+
+1. bird
+2. dog
+3. cat
+
+
+<br /><br />
+To put table, we use: 
+
+````markdown
+
+table header | second header
+-------------|--------------
+cell 1       |     cell 2
+cell 3       |     cell 4
+
+````
+
+table header | second header
+-------------|--------------
+cell 1       |     cell 2
+cell 3       |     cell 4
+
+
+
+#Put in R Codes
+
+We can put R Codes in RMarkdown. 
+
+
+````markdown
+
+`r ''````{r}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+````
+
+````{r}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+<br /><br />
+Evaluation is false, results is not included. 
+
+````markdown
+
+`r ''````{r eval=FALSE}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+````
+
+````{r eval=FALSE}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+<br /><br />
+Echo is false, codes is not displayed. 
+
+````markdown
+
+`r ''````{r echo=FALSE}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+````
+
+````{r echo=FALSE}
+dy <- read.csv("D:/iris.csv");
+summary(dy);
+
+```
+
+
+
+option  | default | effect
+--------|---------|--------
+eval    | TRUE    | Whether to evaluate its code and include results. 
+echo    | TRUE    | whether to display codes along with results
+warning | TRUE    | whether to display warnings
+error   | TRUE    | whether to display errors
+message | TRUE    | whether to display message
+
+
+# Publish
+
+You can publish at www.rpubs.com
+
+
+
+# Convert R Codes to Report. 
+
+If you have the following R codes, convert R codes to report. I reviewed University of the People notes for the Data Mining course and I have included how to convert R codes to report. 
+
+````rmarkdown
+
+dy <- read.csv("D:/iris.csv");
+
+#Data Understanding
+summary(dy);
+str(dy);
+
+hist(dy$sepal_length);
+
+
+#Data Preparation
+smp_size <- floor(0.75 * nrow(dy))
+train_ind <- sample(seq_len(nrow(dy)), size = smp_size)
+
+train <- dy[train_ind, ]
+test <- dy[-train_ind, ]
+
+
+#Modeling
+multi.fit <- lm(sepal_length ~ sepal_width + petal_length, data=dy)
+
+
+#Evaluation
+summary(multi.fit);
+
+````
+<br /><br />
+The following is R Codes converted to report
+
+````markdown
+
+
+---
+title: "LInear Regression Report"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+
+`r ''```{r}
+
+dy <- read.csv("D:/iris.csv");
+
+```
+
+
+#Data Understanding
+Data Udertsanidng is to assist us in understanding the data. We can apply descriptive statistics, inferential statistics, regression analysis, data visualization in this process. 
+
+`r ''```{r}
+summary(dy);
+str(dy);
+
+hist(dy$sepal_length);
+hist(dy$sepal_width);
+hist(dy$petal_length);
+hist(dy$petal_width);
+
+```
+
+#Data Preparation
+Data Preparation is to clean or process the data. After we explore or know the data, we can process the data.  
+
+`r ''```{r}
+smp_size <- floor(0.75 * nrow(dy))
+train_ind <- sample(seq_len(nrow(dy)), size = smp_size)
+
+train <- dy[train_ind, ]
+test <- dy[-train_ind, ]
+```
+
+#Modeling
+After we process the data, we can create classification or regression or prediction models. 
+
+`r ''```{r}
+multi.fit <- lm(sepal_length ~ sepal_width + petal_length, data=dy)
+```
+
+#Evaluation
+Evaluation is to Evaluation to get the accuracy of the models.
+
+`r ''```{r}
+summary(multi.fit);
+```
+
+````
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled6.png)
+
+
+
+
+# Convert to Slides
+
+Insert horizontal rule ***  to create slide breaks
+
+
+````markdown
+---
+title: "LInear Regression Report"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: slidy_presentation
+---
+
+`r ''```{r}
+
+dy <- read.csv("D:/iris.csv");
+
+```
+
+
+#Data Understanding
+Data Udertsanidng is to assist us in understanding the data. We can apply descriptive statistics, inferential statistics, regression analysis, data visualization in this process. 
+
+`r ''```{r}
+summary(dy);
+str(dy);
+
+hist(dy$sepal_length);
+hist(dy$sepal_width);
+hist(dy$petal_length);
+hist(dy$petal_width);
+
+```
+
+***
+
+#Data Preparation
+Data Preparation is to clean or process the data. After we explore or know the data, we can process the data.  
+
+`r ''```{r}
+smp_size <- floor(0.75 * nrow(dy))
+train_ind <- sample(seq_len(nrow(dy)), size = smp_size)
+
+train <- dy[train_ind, ]
+test <- dy[-train_ind, ]
+```
+
+***
+
+
+#Modeling
+After we process the data, we can create classification or regression or prediction models. 
+
+`r ''```{r}
+multi.fit <- lm(sepal_length ~ sepal_width + petal_length, data=dy)
+```
+
+***
+
+
+#Evaluation
+Evaluation is to Evaluation to get the accuracy of the models.
+
+`r ''```{r}
+summary(multi.fit);
+```
+
+***
+
+````
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled7.png)  

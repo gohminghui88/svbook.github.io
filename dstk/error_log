@@ -1,0 +1,12 @@
+[23-Mar-2019 21:57:39 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/dstk/mail.php on line 13
+[23-Mar-2019 21:57:39 America/New_York] PHP Stack trace:
+[23-Mar-2019 21:57:39 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/dstk/mail.php:0
+[23-Mar-2019 21:57:39 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/dstk/mail.php on line 14
+[23-Mar-2019 21:57:39 America/New_York] PHP Stack trace:
+[23-Mar-2019 21:57:39 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/dstk/mail.php:0
+[06-Jul-2019 16:45:08 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/dstk/mail.php on line 13
+[06-Jul-2019 16:45:08 America/New_York] PHP Stack trace:
+[06-Jul-2019 16:45:08 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/dstk/mail.php:0
+[06-Jul-2019 16:45:08 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/dstk/mail.php on line 14
+[06-Jul-2019 16:45:08 America/New_York] PHP Stack trace:
+[06-Jul-2019 16:45:08 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/dstk/mail.php:0

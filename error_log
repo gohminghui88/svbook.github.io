@@ -1,0 +1,38 @@
+[29-Nov-2016 23:17:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:11) in /home/ztecgqgv/public_html/svbook/index2.php on line 24
+[29-Nov-2016 23:18:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:11) in /home/ztecgqgv/public_html/svbook/index2.php on line 24
+[29-Nov-2016 23:18:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:11) in /home/ztecgqgv/public_html/svbook/index2.php on line 24
+[29-Nov-2016 23:18:50 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:13) in /home/ztecgqgv/public_html/svbook/index2.php on line 26
+[29-Nov-2016 23:24:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:13) in /home/ztecgqgv/public_html/svbook/index2.php on line 26
+[29-Nov-2016 23:25:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ztecgqgv/public_html/svbook/index2.php:13) in /home/ztecgqgv/public_html/svbook/index2.php on line 26
+[29-Nov-2016 23:43:27 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ztecgqgv/public_html/svbook/index2.php on line 26
+[26-Jan-2019 05:14:33 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/ztecgqgv/public_html/svbook/mail.php on line 10
+[01-Apr-2019 22:22:13 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 13
+[01-Apr-2019 22:22:13 America/New_York] PHP Stack trace:
+[01-Apr-2019 22:22:13 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[01-Apr-2019 22:22:13 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 14
+[01-Apr-2019 22:22:13 America/New_York] PHP Stack trace:
+[01-Apr-2019 22:22:13 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[23-Apr-2019 09:24:21 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 13
+[23-Apr-2019 09:24:21 America/New_York] PHP Stack trace:
+[23-Apr-2019 09:24:21 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[23-Apr-2019 09:24:21 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 14
+[23-Apr-2019 09:24:21 America/New_York] PHP Stack trace:
+[23-Apr-2019 09:24:21 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[14-Jun-2019 19:08:37 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 13
+[14-Jun-2019 19:08:37 America/New_York] PHP Stack trace:
+[14-Jun-2019 19:08:37 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[14-Jun-2019 19:08:37 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 14
+[14-Jun-2019 19:08:37 America/New_York] PHP Stack trace:
+[14-Jun-2019 19:08:37 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[16-Jun-2019 09:04:27 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 13
+[16-Jun-2019 09:04:27 America/New_York] PHP Stack trace:
+[16-Jun-2019 09:04:27 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[16-Jun-2019 09:04:27 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 14
+[16-Jun-2019 09:04:27 America/New_York] PHP Stack trace:
+[16-Jun-2019 09:04:27 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[13-Aug-2019 09:18:52 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 13
+[13-Aug-2019 09:18:52 America/New_York] PHP Stack trace:
+[13-Aug-2019 09:18:52 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
+[13-Aug-2019 09:18:52 America/New_York] PHP Notice:  Undefined index: comments in /home/ztecgqgv/public_html/svbook/mail.php on line 14
+[13-Aug-2019 09:18:52 America/New_York] PHP Stack trace:
+[13-Aug-2019 09:18:52 America/New_York] PHP   1. {main}() /home/ztecgqgv/public_html/svbook/mail.php:0
