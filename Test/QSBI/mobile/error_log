@@ -1,0 +1,78 @@
+[06-Sep-2017 23:12:05 America/New_York] PHP Warning:  require(databaseSettings.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 70
+[06-Sep-2017 23:12:05 America/New_York] PHP Warning:  require(databaseSettings.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 70
+[06-Sep-2017 23:12:05 America/New_York] PHP Fatal error:  require(): Failed opening required 'databaseSettings.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 70
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(pChart/pDraw.class.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 71
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(pChart/pDraw.class.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 71
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(): Failed opening 'pChart/pDraw.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 71
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(pChart/pImage.class.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 72
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(pChart/pImage.class.php): failed to open stream: No such file or directory in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 72
+[06-Sep-2017 23:12:41 America/New_York] PHP Warning:  include(): Failed opening 'pChart/pImage.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 72
+[06-Sep-2017 23:12:41 America/New_York] PHP Notice:  Trying to get property of non-object in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 120
+[06-Sep-2017 23:14:03 America/New_York] PHP Notice:  Trying to get property of non-object in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 120
+[06-Sep-2017 23:15:22 America/New_York] PHP Notice:  Array to string conversion in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 120
+[06-Sep-2017 23:17:28 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:18:06 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:19:29 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:20:02 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:21:55 America/New_York] PHP Notice:  Undefined index: Institution in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:22:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:24:53 America/New_York] PHP Notice:  Array to string conversion in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:25:16 America/New_York] PHP Notice:  Undefined offset: 0 in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 121
+[06-Sep-2017 23:37:23 America/New_York] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 122
+[06-Sep-2017 23:38:06 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 122
+[06-Sep-2017 23:38:22 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 122
+[07-Sep-2017 00:04:41 America/New_York] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 110
+[07-Sep-2017 00:07:36 America/New_York] PHP Notice:  Undefined index: INstitution in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 110
+[07-Sep-2017 00:07:36 America/New_York] PHP Notice:  Undefined index: INstitution in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 110
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_DEFAULT already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 17
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_TIME already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 18
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_DATE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 19
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_METRIC already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 20
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_CURRENCY already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 21
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_TRAFFIC already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 22
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_FORMAT_CUSTOM already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 23
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_POSITION_LEFT already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 26
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_POSITION_RIGHT already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 27
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_POSITION_TOP already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 28
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_POSITION_BOTTOM already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 29
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_FILLEDCIRCLE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 32
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_FILLEDTRIANGLE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 33
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_FILLEDSQUARE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 34
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_FILLEDDIAMOND already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 35
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_CIRCLE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 36
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_TRIANGLE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 37
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_SQUARE already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 38
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant SERIE_SHAPE_DIAMOND already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 39
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_X already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 42
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant AXIS_Y already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 43
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant ABSOLUTE_MIN already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 46
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant ABSOLUTE_MAX already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 47
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant VOID already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 50
+[07-Sep-2017 00:47:25 America/New_York] PHP Notice:  Constant EURO_SYMBOL already defined in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 53
+[07-Sep-2017 00:47:25 America/New_York] PHP Fatal error:  Cannot redeclare class pData in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/pChart/class/pData.class.php on line 57
+[07-Sep-2017 02:12:49 America/New_York] PHP Notice:  Undefined index: year1 in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 107
+[07-Sep-2017 02:12:49 America/New_York] PHP Notice:  Undefined index: year1 in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 107
+[07-Sep-2017 02:13:48 America/New_York] PHP Notice:  Undefined index: year1 in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 107
+[07-Sep-2017 02:13:48 America/New_York] PHP Notice:  Undefined index: year1 in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 107
+[08-Sep-2017 00:47:06 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/RankingCompTable.php on line 139
+[08-Sep-2017 00:47:58 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/RankingCompTable.php on line 139
+[20-Sep-2017 04:59:55 America/New_York] PHP Notice:  Undefined index: y in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 102
+[25-Sep-2017 06:35:59 America/New_York] PHP Notice:  Undefined index: y in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 102
+[18-Mar-2018 22:13:33 America/New_York] PHP Notice:  Undefined index: y in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 102
+[18-Mar-2018 23:47:00 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 32
+[18-Mar-2018 23:47:00 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 98
+[18-Mar-2018 23:47:00 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 101
+[18-Mar-2018 23:47:00 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 101
+[18-Mar-2018 23:47:05 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 117
+[18-Mar-2018 23:47:05 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 119
+[18-Mar-2018 23:47:05 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 127
+[18-Mar-2018 23:47:05 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 129
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 32
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 98
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 101
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 101
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: y in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/index.php on line 102
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 117
+[18-Mar-2018 23:51:07 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 119
+[18-Mar-2018 23:51:08 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 127
+[18-Mar-2018 23:51:08 America/New_York] PHP Notice:  Undefined index: q in /home/ztecgqgv/public_html/svbook/Test/QSBI/mobile/QSTable.php on line 129

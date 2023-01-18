@@ -1,0 +1,179 @@
+---
+title: "Introduction to Text Mining"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+
+
+Text Mining deals with the textual data. Data Mining usually deals with numerical data. The following is an introduction to text mining. 
+To use Text Mining in R, we need to install RTextTools, tm, and SnowballC packages: 
+
+
+install.packages("tm"); <br />
+install.packages("Snowballc"); <br />
+
+install.packages("rvest"); <br />
+install.packages("xml2"); <br />
+install.packages("stringr"); <br />
+install.packages("dplyr"); <br />
+install.packages("wordcloud"); <br />
+install.packages("RColorBrewer"); <br />
+install.packages("ggplot2"); <br />
+install.packages("caTools"); <br />
+install.packages("randomForest"); <br />
+install.packages("caret"); <br />
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled8.png) <br /><br /><br />
+We include the plugins in our R scripts. 
+
+
+```{r warning=FALSE}
+
+library(rvest)
+library(xml2)
+library(stringr)
+library(dplyr)
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(RColorBrewer)
+library(ggplot2)
+library(caTools)
+library(randomForest)
+library(caret);
+
+
+```
+
+
+To do text mining, we use CRISP DM. 
+
+![](https://storage.ning.com/topology/rest/1.0/file/get/2808314343?profile=RESIZE_480x480);
+
+Extracted from https://www.datasciencecentral.com/profiles/blogs/crisp-dm-a-standard-methodology-to-ensure-a-good-outcome
+
+
+#Create Dataset
+```{r}
+
+docs <- c("This food is good", "This burger is good", "fish burger is great", "chicken burger is good", "this pancake is great", "this burger is good", "this burger is great");
+
+c <- c(1, 0, 0, 1, 1, 0, 1);
+
+corpus <- VCorpus(VectorSource(docs));
+
+```
+
+
+#Data Understanding
+We can use the following codes to understand our text data. We created the Document Term Matrix and the Term Document Matrix using the tm package. We have also plotted the words or term with the number of occurrence or term frequency: 
+
+```{r}
+
+dtm <- DocumentTermMatrix(corpus);
+inspect(dtm);
+
+tdm <- TermDocumentMatrix(corpus);
+inspect(tdm);
+
+
+
+```
+
+We can create Bar plot or chart. The most popular words is burger, good, great. 
+
+```{r}
+freq <- rowSums(as.matrix(tdm));
+freq;
+barplot(freq);
+```
+
+We can create Word Cloud. 
+```{r}
+wordcloud(corpus, min.freq = 1, random.color = FALSE);
+```
+
+Saying about Part of Speech Tagging, before I forget, You can use DSTK to create Text Analysis. The following links 6 people said staffs are friendly. nn is noun, jj is adjectives. 
+
+![](https://dstk.tech/images/Untitled9.png) <br /><br /><br />
+
+#Data Preparation
+
+We have removed numbers, stem the words, remove punctuations, and remove stopwords using tm_map. 
+
+We split the data into training sets and testing sets sample.split.
+
+
+Stopwords are commonly used words. Remove stopwords point to remove of commonly used words. Stop words is as follows:   
+
+```{r}
+
+stopwords("en");
+
+```
+
+Stemming is the process of reducing a word to its word stem. Documents are going to use different forms of words, like organize, organizes, and organizing. Stemming is going to make it to organize. 
+
+We remove stopwords, remove numbers, remove punctuation, to lowercase and stemming. 
+```{r}
+corpus <- tm_map(corpus, content_transformer(tolower));
+corpus <- tm_map(corpus, removeNumbers);
+corpus <- tm_map(corpus, removePunctuation);
+corpus <- tm_map(corpus, removeWords, stopwords());
+corpus <- tm_map(corpus, stemDocument);
+
+dtm <- DocumentTermMatrix(corpus);
+dtm <- removeSparseTerms(dtm, 0.9);
+
+data <- as.data.frame(as.matrix(dtm));
+data$cls <- c;
+```
+
+We split data to training set and testing set. 
+```{r}
+
+split <- sample.split(data$cls, SplitRatio = 0.75);
+training_set <- subset(data, split == TRUE);
+test_set <- subset(data, split == FALSE);
+
+training_set;
+test_set;
+
+training_setWithCls <- training_set;
+test_setWithCls <- test_set;
+```
+
+
+
+#Modeling
+We create the model on our text data. We classify the new data using the model. We can accomplish these using the following codes: 
+
+
+```{r}
+
+training_set$cls <- NULL;
+test_set$cls <- NULL;
+
+training_set;
+test_set;
+
+model <- randomForest(x = training_set, y = training_setWithCls$cls);
+model;
+
+y_pred <- predict(model, newdata = test_set);
+y_pred;
+
+```
+
+
+#Evaluation
+We can use the following code to get Confusion Matrix and evaluate our model: 
+
+```{r}
+
+table(y_pred, test_setWithCls$cls );
+```
+
+
+

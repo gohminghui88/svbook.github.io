@@ -1,0 +1,131 @@
+---
+title: "Introduction to Big Data"
+author: "Eric Goh"
+date: "2020 M10 4"
+output: html_document
+---
+
+
+#3Vs in Big Data
+
+Big Data is when the data is too large. Big Data usually have the 3Vs
+
+![](https://s.financesonline.com/uploads/2019/07/Big-Data-Statistics-1-768x564.jpg) <br /><br /><br />
+
+Extracted from: https://financesonline.com/what-is-big-data-analytics-and-how-it-helps-you-understand-your-customers/
+
+
+Volume: Data is too large  
+Variety: Data has many types  
+Velocity: Data increases very fast.   
+
+
+#Map Reduce
+
+When Data is too large we use Map Reduce. I said while teaching in Kaplan and Uiversity of Portsmouth, it is common sense that when a computer cannot process a data, we use many computers to process the data. 
+
+![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/11/MapReduce-Way-MapReduce-Tutorial-Edureka.png) <br /><br /><br />
+
+Extracted from: https://www.edureka.co/blog/mapreduce-tutorial/
+
+
+When data is large, we split data into small data. We sent the small data to the mapper nodes. Each nodes is a computer. 
+
+In Mapper, it does all the tasks and process of data. 
+
+In reducer, it shuffles and do aggregation on all data and send to output.
+
+Note: Mapper does all the tasks, and no task is done on the reducer.
+
+
+# Hadoop Ecosystem
+
+![](https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2017/04/Hadoop-Ecosystem-2-01.jpg) <br /><br /><br />
+
+Extracted from https://data-flair.training/blogs/hadoop-ecosystem-components/
+
+HIve is for SQL query.   
+Mahout is for Machine LEarning.   
+HBase is for columnar store.   
+HDFS is where data is stored.   
+
+
+
+#Apache Spark
+
+Apache Spark is another very popular BIg Data Softwares or Systems. 
+Apache SPark is faster and has Machine Learning libraries. 
+
+Apache Spark can be in Hadoop: 
+
+
+![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/10/HADOOP-ECOSYSTEM-Edureka.png) <br /><br /><br />
+
+Extracted from: https://www.edureka.co/blog/hadoop-ecosystem
+
+#Tutorial:Big Data System
+
+Go to Databricks.com
+Click Login
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled15.png) <br /><br /><br />
+
+
+Click Sign in here.
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled16.png) <br /><br /><br />
+
+
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled17.png) <br /><br /><br />
+
+
+Select import and export data. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled18.png) <br /><br /><br />
+
+Put in iris.csv
+Click Create Table in Notebook
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled20.png) <br /><br /><br />
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled21.png) <br /><br /><br />
+
+
+Cmd 2 Change to something like this
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled22.png) <br /><br /><br />
+
+
+Cmd 3 Change to something like this. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled23.png) <br /><br /><br />
+
+
+Cmd 4 Change to something like this. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled24.png) <br /><br /><br />
+
+
+Click to add more cells. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled25.png) <br /><br /><br />
+
+
+Cmd 5 Change to something like this. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled26.png) <br /><br /><br />
+
+
+Cmd 6 Change to something like this. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled27.png) <br /><br /><br />
+
+Cmd 7 Change to something like this. 
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled28.png) <br /><br /><br />
+
+
+Go Cmd 2, run all below
+
+![](http://svbook.com/CreateSlidesAndReportWithRMarkdown/Untitled29.png) <br /><br /><br />

@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ericgoh88\.svbook\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericgoh88\.svbook\.com$
+RewriteRule ^/?$ "http\:\/\/www\.ericgoh88\.xyz" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericgoh88\.ztechbook\.website$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericgoh88\.ztechbook\.website$
+RewriteRule ^/?$ "http\:\/\/www\.ericgoh88\.xyz" [R=301,L]
+
